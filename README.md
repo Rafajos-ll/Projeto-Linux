@@ -73,7 +73,7 @@ para testar a configuração do nginx utilizei o seguinte comando:
 sudo nginx -t
 ```
 ## Script para checar o SITE
-
+```bash
 #!/bin/bash
 
 # URL do site a checar
