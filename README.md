@@ -9,5 +9,4 @@
  ```bash
  wsl --install 
 ```
-#Para que serve
  Permite a instalação de distribuiçoes diversas no windows
