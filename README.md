@@ -41,5 +41,30 @@ dentro do diretorio /var/www
     </div>
 </body>
 </html>
+```
+para estilizar criei um outro arquivo chamado Style.css segue o script do mesmo:
+ 
+```css
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #009578;
+}
+```
