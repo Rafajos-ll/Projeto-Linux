@@ -99,3 +99,15 @@ if [ "$STATUS" -ne 200 ]; then
          -X POST \
  ```
 Aqui nesse script ele verifica se o site esta online checkando se 200 quer dizer ok se nao ele manda uma notificação via webhook do Discord
+
+## Comando para instalar o cron
+```bash
+sudo apt install cron
+```
+Botei como instalar o cron caso não venha instalado
+
+## Script do cron para pingar se esta off
+```bash
+* * * * * /home/rafas/PingSITE.sh >> /var/log/monitor_site.log 2>&1
+```
+aqui ele verifica de 1 em 1 minuto e salva tambem os arquivos na pasta que denpminei de monitor_site.log no diretorio /var/log
