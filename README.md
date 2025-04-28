@@ -68,7 +68,7 @@ h1 {
     color: #009578;
 }
 ```
-para verificar se o site estava online fiz o comando 
+para testar a configuração do nginx utilizei o seguinte comando:
 ```bash
 sudo nginx -t
 ```
