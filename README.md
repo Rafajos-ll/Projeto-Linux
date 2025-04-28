@@ -68,3 +68,7 @@ h1 {
     color: #009578;
 }
 ```
+para habilitar o site fiz o comando
+```bash
+sudo systemctl reload nginx
+```
