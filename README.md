@@ -104,7 +104,7 @@ Aqui nesse script ele verifica se o site esta online.(checkando se 200 quer dize
 ```bash
 sudo apt install cron
 ```
-Botei como instalar o cron caso não venha instalado
+Coloquei como instalar o cron caso não venha instalado
 
 ## Script do cron para pingar se esta off
 ```bash
