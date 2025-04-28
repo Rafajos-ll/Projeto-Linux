@@ -79,6 +79,8 @@ sudo nginx -t
 3.vã em integrações  → webhooks  → Novo webhook
 4.Dê um nome como ("Alerta de Site"),escolha o canal e copie a URL do webhook
 
+![Texto Alternativo](https://cdn.discordapp.com/attachments/890293548870680617/1366427744916869211/Screenshot_4.png?ex=6810e881&is=680f9701&hm=59ccb5969ba0e51f1530005637d4350c0b8aa989bd376ff6d29ef47b407e014f&)
+
 ## Script para checar o SITE
 ```bash
 #!/bin/bash
