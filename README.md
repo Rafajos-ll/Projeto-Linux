@@ -68,7 +68,7 @@ h1 {
     color: #009578;
 }
 ```
-para testar a configuração do nginx utilizei o seguinte comando:
+para testar a sintaxe do arquivo de configuração nginx você pode utilizar este comando:
 ```bash
 sudo nginx -t
 ```
