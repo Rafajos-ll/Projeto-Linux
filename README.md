@@ -24,7 +24,7 @@ sudo nano index.html
 dentro do diretorio /var/www
 
  ## Script do Site 
-
+```html
  <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
