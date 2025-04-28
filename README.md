@@ -110,4 +110,4 @@ Botei como instalar o cron caso não venha instalado
 ```bash
 * * * * * /home/rafas/PingSITE.sh >> /var/log/monitor_site.log 2>&1
 ```
-aqui ele verifica de 1 em 1 minuto e salva tambem os arquivos na pasta que denpminei de monitor_site.log no diretorio /var/log
+aqui ele verifica de 1 em 1 minuto e salva tambem os arquivos na pasta que denominei de monitor_site.log no diretorio /var/log
