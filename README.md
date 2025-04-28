@@ -98,7 +98,7 @@ if [ "$STATUS" -ne 200 ]; then
     curl -H "Content-Type: application/json" \
          -X POST \
  ```
-Aqui nesse script ele verifica se o site esta online.(checkando se 200 quer dizer ok) se nao ele manda uma notificação via webhook do Discord
+Aqui nesse script ele verifica se o site esta online.(checkando se 200 quer dizer ok) se ocorrer de qualquer numero ser diferente de 200 ele envia a mensagem via webhook do Discord.
 
 ## Comando para instalar o cron
 ```bash
