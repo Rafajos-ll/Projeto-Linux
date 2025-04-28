@@ -1,4 +1,4 @@
-#!/bin/bash
+```#!/bin/bash
 
 # URL do site a checar
 URL="http://localhost"
@@ -27,3 +27,4 @@ if [ "$STATUS" -ne 200 ]; then
 else
     echo "$DATA - Site OK (Status: $STATUS)"
 fi
+```
