@@ -72,6 +72,13 @@ para testar a sintaxe do arquivo de configuração nginx você pode utilizar est
 ```bash
 sudo nginx -t
 ```
+## Como configurar o webhook pelo Discord
+
+1.Crie um servidor aonde queira receber as mensagens
+2.Clique no nome do canal no seu servidor e va em "Editar canal"
+3.vã em integrações  → webhooks  → Novo webhook
+4.Dê um nome como ("Alerta de Site"),escolha o canal e copie a URL do webhook
+
 ## Script para checar o SITE
 ```bash
 #!/bin/bash
