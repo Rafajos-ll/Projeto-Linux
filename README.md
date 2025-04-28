@@ -7,4 +7,7 @@
  Primeiro de tudo utilizei do powershell do windows para instalar o ubuntu.
 
  ```bash
- wsl --install
+ wsl --install 
+```
+#Para que serve
+ Permite a instalação de distribuiçoes diversas no windows
