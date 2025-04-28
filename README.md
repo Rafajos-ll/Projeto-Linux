@@ -73,7 +73,7 @@ para verificar se o site estava online fiz o comando
 sudo nginx -t
 ```
 ## Script para checar o SITE
-```bash
+```python
 #!/bin/bash
 
 # URL do site a checar
