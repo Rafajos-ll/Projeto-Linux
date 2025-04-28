@@ -4,7 +4,7 @@
 URL="http://localhost"
 
 # Webhook do Discord 
-DISCORD_WEBHOOK="https://discord.com/api/webhooks/1362481707957096648/2ICpUWYv1TYkxfmT_m9wMuzmtRbM3zb9GF0IbtjnISap7gKsPhOqGHpqgwn73OCQVa6c"
+DISCORD_WEBHOOK="https://discord.com/api/webhooks/"
 
 # Obtem data/hora atual
 DATA=$(date '+%Y-%m-%d %H:%M:%S')
