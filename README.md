@@ -68,7 +68,34 @@ h1 {
     color: #009578;
 }
 ```
-para habilitar o site fiz o comando
+para verificar se o site estava online fiz o comando 
 ```bash
-sudo systemctl reload nginx
+sudo nginx -t
 ```
+## Script para checar o SITE
+```bash
+#!/bin/bash
+
+# URL do site a checar
+URL="http://localhost"
+
+# Webhook do Discord
+DISCORD_WEBHOOK="https://discord.com/api/webhooks/
+# Obtem data/hora atual
+DATA=$(date '+%Y-%m-%d %H:%M:%S')
+
+# Verifica status HTTP do site
+STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$URL")
+
+# Checa se o site está fora do ar (qualquer código diferente de 200)
+if [ "$STATUS" -ne 200 ]; then
+    echo "$DATA - Site está OFFLINE! (Status: $STATUS)"
+
+    # Monta mensagem para o Discord
+    MENSG="🚨 [$DATA] ALERTA: O site está fora do ar! Status HTTP: $STATUS"
+
+    # Envia alerta via Webhook
+    curl -H "Content-Type: application/json" \
+         -X POST \
+ ```
+Aqui nesse script ele verifica se o site esta online checkando se 200 quer dizer ok se nao ele manda uma notificação via webhook do Discord
