@@ -10,3 +10,9 @@
  wsl --install 
 ```
  Permite a instalação de distribuiçoes diversas no windows
+## No Ubuntu
+
+```bash
+sudo apt install nginx
+```
+Para baixar o host do nosso servidor na web
